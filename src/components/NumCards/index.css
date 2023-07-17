@@ -1,0 +1,10 @@
+.num-cards {
+    height: 75vh;
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px;
+}

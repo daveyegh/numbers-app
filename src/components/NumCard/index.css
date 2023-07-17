@@ -1,0 +1,37 @@
+.num-card {
+    width: calc(48% - 8px);
+    padding: 5px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.num-card-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.num-card-top button {
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.num-card-top button:hover {
+    color: red;
+}
+
+.num-card-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 575px) {
+    .num-card {
+        width: 100%;
+    }
+}
