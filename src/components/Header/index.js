@@ -6,10 +6,10 @@ const Header = ({ onAddNumClick, onSortNumsClick }) => {
   return (
     <header className="header">
       <button className="header-button" onClick={onAddNumClick}>
-        Add Num
+        Add Card
       </button>
       <button className="header-button" onClick={onSortNumsClick}>
-        Sort Nums
+        Sort Cards
       </button>
     </header>
   );
