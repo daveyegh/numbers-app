@@ -29,9 +29,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 32px;
 }
+
 @media (max-width: 575px) {
     .num-card {
         width: 100%;
+    }
+
+    .num-card-body {
+        font-size: 26px;
     }
 }
