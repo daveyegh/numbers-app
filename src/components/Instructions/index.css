@@ -11,10 +11,9 @@
 @media (max-width: 768px) {
     .instructions {
         width: 100% !important;
-        height: auto;
+        height: auto !important;
         border-left: none;
         padding: 0;
         margin-bottom: 4px;
-        height: auto;
     }
 }
